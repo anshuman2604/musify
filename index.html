@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify-Enjoy Your Music</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <div class="lhead">
+                <div class="logo"><img src="logo.png" alt="logo"></div>
+                <div class="cross"><img src="cross.svg" alt="cross" width="30px"></div>
+
+            </div>
+            
+            <div class="home">
+                <ul>
+                    <li><img src="home-icon.svg" alt="icon"><a href="#">Home</a></li>
+                </ul>
+                <div class="library">
+                    <img src="library-icon.svg" alt="icon">
+                    <h2>Library</h2>
+                </div>
+            </div>
+            <div class="library-songs">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="info">
+                @Made By Anshuman Gupta
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="heading">
+                <div class="ham"><img src="hamburger.svg" alt="hamburger" width="40px"></div>
+                <h1>Playlists</h1>
+            </div>
+            <div class="playlist">
+            </div>
+
+
+            <div class="player-container">
+                <div class="player">
+                    <div class="player_song_name">
+                        Song Playing: Baller
+                    </div>
+                    <img id="prev" src="previous.svg" alt="previous">
+                    <img id="play" src="playsong.svg" alt="play">
+                    <img id="next" src="next.svg" alt="next">
+                    <div class="player_song_duration">
+                        0:00 / 2:33
+                    </div>
+                    
+                    <div class="vol">
+                        <img src="volume.svg" alt="icon">
+                        <div class="bar">
+                            <input type="range" name="volume" id="volume">
+                        </div>
+                    </div>
+
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
